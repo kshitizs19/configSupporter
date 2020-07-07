@@ -1,0 +1,18 @@
+{
+    "name": "kshtiz/config-supporter",
+    "description": "A simple config loader with support of php, json and yaml.",
+    "keywords": ["config", "loader"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kshitiz Srivastava",
+            "email": "developer.kshitiz19@gmail.com"
+        }
+    ],
+    "require": {
+        "reva2/config-service-provider": "^2.0"
+    },
+    "autoload": {
+        "psr-4": { "Kshitiz\\": "src/Kshitiz" }
+    }
+}
